@@ -9,7 +9,7 @@ from  pyspark.sql import SparkSession
 from  pyspark.sql.functions import *
 #Creating Spark Session Object
 spark = SparkSession.builder.appName('data manipulation').getOrCreate()
-
+spark
 
 # In[92]:
 
